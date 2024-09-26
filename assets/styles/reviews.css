@@ -1,4 +1,4 @@
-.reviews {
+.reviews .container {
   color: #f9fcfdff;
   display: flex;
   gap: 40px;
@@ -31,6 +31,7 @@
   align-items: center;
   gap: 30px;
   position: relative;
+  overflow-x: hidden;
 }
 .reviews .review {
   width: 360px;
@@ -96,7 +97,17 @@
     display: flex;
     gap: 30px;
   }
-  
+  .reviews .container {
+    padding: 60px 20px 0px 20px;
+  }
+  .reviews .section-title,
+  .section-subtitle {
+    margin: 0;
+    max-width: 45%;
+    margin-inline: auto;
+    font-weight: normal;
+  }
+
   .first-button-next {
     display: block;
   }

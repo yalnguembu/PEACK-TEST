@@ -1,11 +1,13 @@
 .get-it {
+  background-color: #3b3d53;
+}
+.get-it .container {
   color: #fff;
   display: flex;
   flex-direction: column;
   width: 100%;
   padding-block: 40px;
   justify-content: center;
-  background-color: #3b3d53;
   row-gap: 30px;
   background-size: 200px auto;
   background-image: url(/assets/images/img695847.webp);
@@ -51,7 +53,7 @@
 }
 
 @media (min-width: 641px) {
-  .get-it {
+  .get-it .container {
     padding-block: 40px;
     flex-direction: row;
     row-gap: 30px;
@@ -86,9 +88,9 @@
     margin-top: 20px;
     text-align: left;
     letter-spacing: 2;
-    font:31px ITCAvantGardeGothic, sans-serif normal;
+    font: 31px ITCAvantGardeGothic, sans-serif normal;
   }
-  .get-it .section-sub-title{
+  .get-it .section-sub-title {
     text-align: left;
     margin-block: 0;
     font: 18px ITCAvantGardeGothic, sans-serif;
@@ -106,11 +108,10 @@
     object-fit: cover;
     object-position: center;
   }
-  .get-it .cta-button{
+  .get-it .cta-button {
     margin-inline: 0;
   }
 }
-
 
 @media (min-width: 1024px) {
   .get-it .texts {
@@ -121,9 +122,8 @@
     letter-spacing: 2;
     font: 54px ITCAvantGardeGothic, sans-serif normal;
   }
-  .get-it .section-sub-title{
+  .get-it .section-sub-title {
     font: 22px ITCAvantGardeGothic, sans-serif;
     line-height: 27px;
   }
-
 }

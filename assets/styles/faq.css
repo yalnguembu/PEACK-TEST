@@ -60,6 +60,12 @@
   margin: 0;
 }
 
+.faq .moins {
+  display: none;
+}
+.faq .body {
+  display: none;
+}
 @media (min-width: 641px) {
   .faq .faq-title {
     font: 600 41px ITCAvantGarde;

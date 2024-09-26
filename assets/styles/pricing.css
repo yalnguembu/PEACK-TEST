@@ -156,6 +156,7 @@
   .pricing .section-title {
     font-size: 24px;
     margin-block: 30px;
+    text-align: center;
   }
   .plans .plan {
     border-radius: 8px;

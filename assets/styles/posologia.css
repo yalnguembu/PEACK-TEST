@@ -115,6 +115,7 @@
   .posologia .image img {
     height: 100%;
     width: 100%;
+    border-radius: 16px;
   }
   .posologia .texts {
     gap: 30px;
@@ -150,5 +151,9 @@
 
   .posologia .lg {
     display: none;
+  }
+
+  .posologia .section-title.xl{
+    margin-bottom: 50px;
   }
 }

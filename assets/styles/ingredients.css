@@ -1,7 +1,9 @@
 .ingredient {
+  background-color: #24283b;
+}
+.ingredient .container {
   display: grid;
   row-gap: 16px;
-  background-color: #24283b;
   text-align: center;
   letter-spacing: 1px;
   padding-bottom: 50px;
@@ -100,7 +102,7 @@
 }
 
 @media (min-width: 1024px) {
-  .ingredient {
+  .ingredient .container {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
     padding: 60px 20px;
