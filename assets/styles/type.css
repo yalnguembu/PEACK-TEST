@@ -78,6 +78,10 @@
   display: none;
 }
 
+.xl {
+  display: none;
+}
+
 @media (min-width: 641px) {
   .types {
     color: #f9fcfdff;
@@ -142,13 +146,28 @@
   .types .illustrations {
     display: none;
   }
+
+.xl {
+  display: block;
+}
   .types .girl-image {
     display: block;
+  }
+  .texts .group-1{
+    display: flex;
   }
   .types .texts .group-1 .items-group {
     display: grid;
     width: 70%;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .types .texts .group-1 .particul-images{
+    width: 28%;
+  }
+  .types .texts .group-1 .particul-images .top-image{
+    width: 125%;
+    margin-top: -70px;
+    margin-left: -70px;
   }
   .types .group-2 {
     display: flex;
@@ -197,5 +216,5 @@
   }
 }
 @media (min-width: 1024px) {
-  
+
 }

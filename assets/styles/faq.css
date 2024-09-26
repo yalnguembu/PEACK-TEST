@@ -60,11 +60,14 @@
   margin: 0;
 }
 
-.faq .moins {
+.faq .minus {
   display: none;
 }
 .faq .body {
   display: none;
+}
+.faq .body.visible {
+  display: block;
 }
 @media (min-width: 641px) {
   .faq .faq-title {

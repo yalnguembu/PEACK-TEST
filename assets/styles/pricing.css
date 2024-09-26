@@ -33,6 +33,7 @@
   align-items: center;
   gap: 16px;
   padding: 24px 16px;
+  border-radius: 4px;
 }
 .plan .duration {
   margin: 0;
@@ -146,6 +147,21 @@
   font: 10px ITCAvantGardeGothic;
   margin: 0;
   letter-spacing: 0.5;
+}
+.plan .free-shipping {
+  background-color: #f64899;
+  color: #fff;
+  padding: 2 16px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-family: ITCAvantGardePro;
+  font-style: italic;
+}
+.plans .plan.plan-2 {
+  background-color: #bd0fa7;
+}
+.plan-2 .product-image {
+  width: 85%;
 }
 
 @media (min-width: 641px) {

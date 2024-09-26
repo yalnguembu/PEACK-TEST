@@ -79,16 +79,10 @@
 }
 .first-button-next {
   display: none;
-  /* position: absolute; */
-  /* top: 50%; */
-  /* right: 0; */
   z-index: 50;
 }
 .first-button-prev {
   display: none;
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 0; */
   z-index: 50;
 }
 

@@ -7,6 +7,7 @@
   flex-direction: column;
   width: 100%;
   padding-block: 40px;
+  padding-inline: 20px;
   justify-content: center;
   row-gap: 30px;
   background-size: 200px auto;
