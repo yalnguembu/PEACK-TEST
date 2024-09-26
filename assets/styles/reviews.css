@@ -4,9 +4,9 @@
   gap: 40px;
   width: 100%;
   align-items: center;
-  padding-top: 32px;
+  padding-block: 32px;
   flex-direction: column;
-  padding-bottom: 32px;
+  padding-inline: 20px;
   justify-content: center;
   background-color: #2a2c3e;
   text-align: center;
@@ -24,12 +24,13 @@
   font: 15px ITCAvantGardeGothic;
   margin: 0;
 }
-.reviews .reviews {
+.reviews .reviews-1 {
   margin-top: 10px;
   display: grid;
   justify-content: center;
   align-items: center;
   gap: 30px;
+  position: relative;
 }
 .reviews .review {
   width: 360px;
@@ -74,4 +75,32 @@
   font: 16px ITCAvantGardePro;
   line-height: 28px;
   letter-spacing: 1;
+}
+.first-button-next {
+  display: none;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* right: 0; */
+  z-index: 50;
+}
+.first-button-prev {
+  display: none;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 0; */
+  z-index: 50;
+}
+
+@media (min-width: 720px) {
+  .swiper-wrapper {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .first-button-next {
+    display: block;
+  }
+  .first-button-prev {
+    display: block;
+  }
 }

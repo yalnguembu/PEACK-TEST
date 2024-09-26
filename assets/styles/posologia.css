@@ -56,8 +56,11 @@
 .posologia .texts .cta-button {
   width: 100%;
 }
+.posologia .xl {
+  display: none;
+}
 
-@media (min-width: 641px) {
+@media (min-width: 740px) {
   .posologia {
     padding-block: 60px;
   }
@@ -89,7 +92,7 @@
   }
 }
 
-@media (min-width: 820px) {
+@media (min-width: 1024px) {
   .posologia {
     gap: 50px;
     padding: 60px 20px;
@@ -134,11 +137,18 @@
     text-align: left;
   }
   .posologia .cta-conatiner {
-    margin-inline:0 ;
+    margin-inline: 0;
     width: 100%;
   }
   .posologia .cta-button {
-    margin-inline:0 ;
+    margin-inline: 0;
     width: auto;
+  }
+  .posologia .xl {
+    display: block;
+  }
+
+  .posologia .lg {
+    display: none;
   }
 }

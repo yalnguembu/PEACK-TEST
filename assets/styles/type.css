@@ -36,7 +36,7 @@
 .types .texts {
   padding: 0 20px;
 }
-.types .texts .advantages {
+.types .texts .items-group {
   display: flex;
   row-gap: 40px;
   position: relative;
@@ -47,7 +47,7 @@
   justify-content: flex-start;
   margin-bottom: 40px;
 }
-.types .texts .advantages .item {
+.types .texts .items-group .item {
   column-gap: 16px;
   display: flex;
   width: 100%;
@@ -59,11 +59,11 @@
   row-gap: 12px;
   letter-spacing: 1px;
 }
-.types .texts .advantages .item-title {
+.types .texts .items-group .item-title {
   font: bold 18px ITCAvantGardeGothic, sans-serif;
   margin: 0;
 }
-.types .texts .advantages .details {
+.types .texts .items-group .details {
   font: 14px ITCAvantGardeGothic, sans-serif;
   margin: 0;
   line-height: 20px;
@@ -112,26 +112,53 @@
   .types .texts {
     padding: 0 20px;
   }
-  .types .advantages-title {
+  .types .items-group-title {
     font-size: 31px;
     font-family: ITCAvantGardeGothic, sans-serif;
   }
-  .types .texts .advantages {
+  .types .texts .items-group {
     row-gap: 60px;
   }
-  .types .texts .advantages .item {
+  .types .texts .items-group .item {
     column-gap: 30px;
   }
-  .types .texts .advantages .item-title {
+  .types .texts .items-group .item-title {
     font-size: 25px;
     font-family: bold ITCAvantGardeGothic, sans-serif;
     letter-spacing: 2.5;
     line-height: 40px;
   }
-  .types .texts .advantages .details {
+  .types .texts .items-group .details {
     font-size: 18px;
     font-family: ITCAvantGardeGothic, sans-serif;
     letter-spacing: 2.5;
-    line-height: 30px ;
+    line-height: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .types .texts .items-group {
+    flex-direction: row;
+  }
+
+  .types .item {
+    width: 30%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-basis:auto;
+  }
+  .types .texts .image-bg {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .types .texts .image-bg img {
+    height: 70px;
+    width: 70px;
   }
 }

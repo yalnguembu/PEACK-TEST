@@ -112,7 +112,7 @@
 }
 
 
-@media (min-width: 820px) {
+@media (min-width: 1024px) {
   .get-it .texts {
     gap: 50px;
   }

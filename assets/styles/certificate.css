@@ -1,6 +1,11 @@
 .certificate {
   background-color: #292b3d;
-  padding: 60px 20px 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-block: 1px solid #ffffff50;
 }
 .certificate .certificate {
   width: 100%;
@@ -41,11 +46,21 @@
 }
 
 @media (min-width: 641px) {
+  .certificate {
+    background-color: #292b3d;
+    padding: 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-block: 1px solid #ffffff50;
+  }
   .certificate .certificate {
     padding: 20px 32px;
     flex-direction: row;
     align-items: center;
     gap: 30px;
+    max-width: 700px;
   }
   .certificate .badge-container {
     height: max-content;
@@ -61,7 +76,10 @@
     text-align: left;
   }
 }
-@media (min-width: 820px) {
+@media (min-width: 1024px) {
+  .certificate {
+    padding: 60px 20px 20px;
+  }
   section.certificate {
     display: flex;
     justify-content: center;

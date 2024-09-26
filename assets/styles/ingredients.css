@@ -99,7 +99,7 @@
   }
 }
 
-@media (min-width: 820px) {
+@media (min-width: 1024px) {
   .ingredient {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
@@ -107,14 +107,15 @@
   }
   .ingredient .section-title {
     font: 48px ITCAvantGardePro, sans-serif;
+    padding-top: 30px;
   }
   .ingredient .embiance-texts {
-    row-gap: 35px;
+    row-gap: 20px;
     padding: 0;
     text-align: left;
   }
   .ingredient .image {
-    gap: 16px;
+    gap: 25px;
   }
   .ingredient .grass-image {
     width: 100%;
@@ -131,5 +132,10 @@
   }
   .ingredient .lg {
     display: none;
+  }
+  .ingredient .xl {
+    display: block;
+    font: 20px ITCAvantGardeGothic, sans-serif;
+    padding-top: 40px;
   }
 }

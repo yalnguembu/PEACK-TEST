@@ -1,3 +1,94 @@
+.faq {
+  display: flex;
+  row-gap: 50px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+  justify-content: center;
+  background-color: #292b3d;
+  color: #fff;
+  padding-inline: 20px;
+}
+.faq .faq-title {
+  font: 600 36px ITCAvantGarde;
+  text-align: center;
+  margin: 0;
+  padding-block: 20px;
+}
+.faq .accordion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 700px;
+}
+.faq .item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+}
+.faq .item .head {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.faq .item .title {
+  font: 16px ITCAvantGardeGothic;
+  margin: 0;
+}
+.faq .item .action {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+.faq .item .action svg {
+  width: 30px;
+  height: 30px;
+  color: #ffb5dcff;
+}
+.faq .item .content {
+  font: 14px ITCAvantGardeGothic;
+  padding-bottom: 10px;
+  margin: 0;
+}
 
+@media (min-width: 641px) {
+  .faq .faq-title {
+    font: 600 41px ITCAvantGarde;
+    padding-block: 20px;
+  }
+  .faq .accordion {
+    padding-top: 20px;
+  }
+  .faq .item .title {
+    font: 20px ITCAvantGardeGothic;
+    padding-block: 20px;
+  }
+  .faq .item .content {
+    padding-bottom: 20px;
+  }
+}
 
-
+@media (min-width: 1024px) {
+  .faq .faq-title {
+    font: 600 41px ITCAvantGarde;
+    text-align: center;
+    margin: 0;
+    padding-block: 20px;
+  }
+  .faq .accordion {
+    padding-top: 20px;
+  }
+  .faq .item .title {
+    font: 20px ITCAvantGardeGothic;
+    margin: 0;
+  }
+}

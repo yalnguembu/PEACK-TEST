@@ -87,7 +87,7 @@
     line-height: 60px;
   }
 }
-@media (min-width: 820px) {
+@media (min-width: 1024px) {
   .resluts .section-title{
    font-size: 58px;
    font-weight: 600;
