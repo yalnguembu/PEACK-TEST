@@ -1,0 +1,129 @@
+.get-it {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-block: 40px;
+  justify-content: center;
+  background-color: #3b3d53;
+  row-gap: 30px;
+  background-size: 200px auto;
+  background-image: url(/assets/images/img695847.webp);
+  background-repeat: no-repeat;
+  background-position-x: 248px;
+  background-position-y: center;
+}
+.get-it .texts {
+  letter-spacing: 1;
+  background-size: 200px auto;
+  justify-content: flex-start;
+}
+.get-it .image {
+  display: none;
+}
+.get-it .items-group {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  width: 60%;
+}
+.get-it .items-group .check {
+  width: 15px;
+  height: 15px;
+}
+.get-it .item {
+  display: flex;
+  column-gap: 16px;
+  color: #fff;
+  align-items: start;
+  font: 13px ITCAvantGardePro, sans-serif;
+  line-height: 18px;
+}
+.get-it .section-title {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.get-it .title-box {
+  text-align: center;
+}
+.get-it .item p {
+  margin: 0%;
+}
+
+@media (min-width: 641px) {
+  .get-it {
+    padding-block: 40px;
+    flex-direction: row;
+    row-gap: 30px;
+    background-image: none;
+  }
+  .get-it .texts {
+    letter-spacing: 1;
+    background-size: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    gap: 25px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .get-it .items-group {
+    row-gap: 35px;
+    padding: 0;
+    width: 100%;
+  }
+  .get-it .items-group .check {
+    width: 35px;
+    height: 25px;
+  }
+  .get-it .item {
+    column-gap: 20px;
+    font: 20px ITCAvantGardePro, sans-serif;
+    line-height: 30px;
+  }
+  .get-it .section-title {
+    margin-top: 20px;
+    text-align: left;
+    letter-spacing: 2;
+    font:31px ITCAvantGardeGothic, sans-serif normal;
+  }
+  .get-it .section-sub-title{
+    text-align: left;
+    margin-block: 0;
+    font: 18px ITCAvantGardeGothic, sans-serif;
+    letter-spacing: 2;
+    line-height: 27px;
+  }
+  .get-it .image {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  .get-it .image .illustration {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .get-it .cta-button{
+    margin-inline: 0;
+  }
+}
+
+
+@media (min-width: 820px) {
+  .get-it .texts {
+    gap: 50px;
+  }
+  .get-it .section-title {
+    margin-top: 20px;
+    letter-spacing: 2;
+    font: 54px ITCAvantGardeGothic, sans-serif normal;
+  }
+  .get-it .section-sub-title{
+    font: 22px ITCAvantGardeGothic, sans-serif;
+    line-height: 27px;
+  }
+
+}

@@ -1,0 +1,26 @@
+.disclamer {
+  padding: 40px 20px;
+  background-color: #2a2c3e;
+}
+.disclamer .content {
+  padding: 15px;
+  margin: 0;
+  border: 2px solid #f9fcfd;
+  font: 11px ITCAvantGardeGothic;
+  color: #f9fcfd;
+  text-align: center;
+  letter-spacing: 1;
+  line-height: 20px;
+}
+
+@media (min-width: 641px) {
+  .disclamer {
+    padding: 60px 20px;
+  }
+  .disclamer .content {
+    padding: 30px;
+    border: 2px solid #f9fcfd;
+    font: 14px ITCAvantGardeGothic;
+    line-height: 25px;
+  }
+}

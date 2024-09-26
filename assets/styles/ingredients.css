@@ -1,0 +1,135 @@
+.ingredient {
+  display: grid;
+  row-gap: 16px;
+  background-color: #24283b;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-bottom: 50px;
+}
+.ingredient .section-title {
+  margin: 0;
+  letter-spacing: 0.2px;
+}
+.ingredient .grass-image {
+  width: 100%;
+  height: 200px;
+}
+.ingredient .image {
+  display: grid;
+  gap: 16px;
+}
+.ingredient .trade-mark {
+  color: #717287;
+  font: 12px ITCAvantGardeGothic, sans-serif;
+  padding: 0;
+  margin: 0;
+  letter-spacing: normal;
+}
+.ingredient .embiance-texts {
+  display: grid;
+  row-gap: 30px;
+  color: #fff;
+  padding: 0 20px;
+}
+.ingredient .explanation {
+  display: grid;
+  row-gap: 12px;
+}
+.ingredient .description {
+  font: 16px ITCAvantGardeGothic, sans-serif;
+  line-height: 25px;
+  margin: 0;
+}
+.ingredient .formular {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-direction: column;
+}
+.formular p {
+  margin: 0;
+  font: 14px ITCAvantGardeGothic, sans-serif;
+}
+.formular .rigth {
+  align-self: flex-end;
+}
+.formular .left {
+  align-self: flex-start;
+}
+.ingredient .formular .formular-image {
+  width: 200px;
+  height: 122;
+}
+.ingredient .ingredient-cta-button {
+  border-radius: 100px;
+  padding: 15px 32px;
+  color: #d8fda7ff;
+  border: 3px solid #d8fda7ff;
+  background-color: transparent;
+  font: 20px Arial;
+  width: 300px;
+  height: 64px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.ingredient .ingredient-cta-button svg {
+  width: 28px;
+  height: 28px;
+}
+
+@media (min-width: 641px) {
+  .ingredient .image {
+    gap: 16px;
+  }
+  .ingredient .trade-mark {
+    font: 16px ITCAvantGardeGothic, sans-serif;
+  }
+  .ingredient .description {
+    font: 20px ITCAvantGardeGothic, sans-serif;
+    line-height: 35px;
+  }
+  .ingredient .formular {
+    gap: 30px;
+  }
+  .formular p {
+    font: 20px ITCAvantGardeGothic, sans-serif;
+  }
+}
+
+@media (min-width: 820px) {
+  .ingredient {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    padding: 60px 20px;
+  }
+  .ingredient .section-title {
+    font: 48px ITCAvantGardePro, sans-serif;
+  }
+  .ingredient .embiance-texts {
+    row-gap: 35px;
+    padding: 0;
+    text-align: left;
+  }
+  .ingredient .image {
+    gap: 16px;
+  }
+  .ingredient .grass-image {
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+  }
+  .ingredient .trade-mark {
+    font: 16px ITCAvantGardeGothic, sans-serif;
+  }
+  .ingredient .ingredient-cta-button {
+    margin: 0;
+    text-align: left;
+    height: 74px;
+  }
+  .ingredient .lg {
+    display: none;
+  }
+}

@@ -1,0 +1,405 @@
+@font-face {
+  font-family: ITCAvantGardePro;
+  src: url("../fonts/ITCAvantGardePro-Bk.otf") format("otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: ITCAvantGardePro;
+  src: url("../fonts/ITCAvantGardePro-Bold.otf") format("otf");
+  font-weight: bolder;
+}
+@font-face {
+  font-family: ITCAvantGardePro-semi;
+  src: url("../fonts/ITCAvantGardePro-Demi.otf") format("otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: ITCAvantGardePro;
+  src: url("../fonts/ITCAvantGardePro-Md.otf") format("otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: ITCAvantGardeGothic;
+  src: url("../fonts/itcavantgardegothic.woff2") format("woff2");
+}
+@font-face {
+  font-family: ITCAvantGardeGothic;
+  src: url("../fonts/itcavantgardegothic_bold.woff2") format("woff2");
+  font-weight: bold;
+}
+
+/* @font-face {
+  font-family: ITCAvantGarde;
+  src: url("../fonts/ITCAvantGardeStd-Bk.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-BkCn.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-BkCnObl.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-BkObl.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-Bold.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-BoldCn.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-BoldCnObl.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-Demi.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-DemiCn.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-DemiCnObl.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-DemiObl.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-Md.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-MdCn.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-MdCnObl.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-MdObl.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-XLt.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-XLtCn.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-XLtCnObl.woff2") format("woff2"),
+    url("../fonts/ITCAvantGardeStd-XLtObl.woff2") format("woff2");
+  font-style: normal;
+}
+@font-face {
+  font-family: ITCAvantGardeGothic;
+  src: url("../fonts/free-fa-solid-900.woff2") format("woff2"),
+    url("../fonts/itcavantgardegothic.woff2") format("woff2"),
+    url("../fonts/itcavantgardegothic_bold.woff2") format("woff2"),
+    url("../fonts/itcavantgardegothic_n7.e4cdcda7001c6328cfe571734c25261390a886d4.woff2")
+      format("woff2");
+  font-style: normal;
+} */
+
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding-top: 12px;
+  background-color: #2a2c3e;
+}
+
+.banner {
+  top: 0px;
+  height: 54px;
+  display: flex;
+  z-index: 100;
+  position: sticky;
+  align-items: center;
+  font-family: ITCAvantGardePro, sans-serif;
+  padding-block: 4px;
+  justify-content: center;
+  background-image: linear-gradient(
+    90deg,
+    #ffcbc2ff 0%,
+    #f2c1f1ff 99.11452487699741%
+  );
+  gap: 8px;
+}
+.banner .banner-text {
+  color: #4d3975;
+  font-size: 11px;
+  font-family: ITCAvantGardePro, sans-serif;
+  font-weight: bold;
+}
+.banner-button {
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #4d3975;
+  background-color: #defda7;
+  padding: 8px 11px;
+  border: 2px solid #4d3975;
+}
+
+.sales {
+  width: 100%;
+  height: min-content;
+  background-image: linear-gradient(
+    90deg,
+    #ffcbc2ff 0%,
+    #f2c1f1ff 99.11452487699741%
+  );
+  padding-bottom: 1px;
+}
+.sales .contain {
+  width: 100%;
+  height: 100%;
+  background: #2a2c3e;
+  padding: 12px;
+  padding-block: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sales .banner-logo {
+  width: 80px;
+  height: 32px;
+}
+.sales .cta {
+  padding: 5px 6px;
+  background: #f64899;
+  color: white;
+  font: bold 10px ITCAvantGardeGothic, sans-serif;
+  padding-bottom: 8px;
+  margin: 0;
+}
+.sales .reduction {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: ITCAvantGardeGothic, sans-serif;
+  font-weight: bolder;
+}
+.sales .small {
+  font-size: 10px;
+}
+.sales .big {
+  font-size: 20px;
+  padding-left: 4px;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.hero .hero-text {
+  padding: 16px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.hero-title {
+  font-family: ITCAvantGardeGothic, sans-serif;
+  font-size: 26px;
+  margin: 0;
+}
+
+.hero-text .hero-description {
+  font-size: 15px;
+  font-family: ITCAvantGardePro, sans-serif;
+  margin: 0;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+.hero .hero-image {
+  width: 100%;
+  height: 375px;
+  background-image: url("/assets/images/Untitled-3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image .hero-image-2 {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-45deg);
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+.hero-image .hero-bage {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+}
+.hero-image .hero-image-2 {
+  position: absolute;
+  top: 40px;
+  left: -20px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-20deg);
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.hero-image .hero-image-1 {
+  position: absolute;
+  left: auto;
+  right: 20px;
+  bottom: 0px;
+  width: 100px;
+  transform: rotate(15deg);
+  object-fit: cover;
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.cta-button {
+  border-radius: 100px;
+  padding: 15px 32px;
+  color: #fff;
+  border: none;
+  background-color: #fc89e2;
+  font: bold 16px ITCAvantGardePro, sans-serif;
+  width: 290px;
+  height: 60px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.guarantee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-family: ITCAvantGardeGothic;
+  font-size: 14px;
+  letter-spacing: 1;
+  line-height: 23px;
+  margin-block: 12px;
+  color: #fff;
+}
+
+.section-title {
+  font-family: ITCAvantGardeGothic;
+  font-weight: bold;
+  font-size: 21px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.section-sub-title {
+  font-family: ITCAvantGardeGothic;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.green-text {
+  color: #c5fdac;
+}
+
+.purple-text {
+  color: #ff87ea;
+  margin: 0;
+}
+.move {
+  color: #4c3772;
+}
+.violet {
+  color: #ff64b5ff;
+}
+.truncate {
+  text-decoration: line-through;
+}
+
+@media (min-width: 641px) {
+  .hero {
+    flex-direction: column;
+    padding-inline: 20px;
+    padding-block: 20px;
+    margin-top: 100;
+  }
+  .hero-title {
+    font-size: 31px;
+  }
+  .hero .hero-text {
+    padding: 20px;
+    row-gap: 30px;
+  }
+  .hero-text .hero-description {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .hero .hero-image {
+    height: 530;
+    border-radius: 8px;
+  }
+  .hero-image .hero-image-2 {
+    top: 40px;
+    left: -20px;
+    width: 150px;
+    height: 150px;
+  }
+  .hero-image .hero-bage {
+    width: 100px;
+    height: 100px;
+  }
+  .hero-image .hero-image-1 {
+    right: 0px;
+    bottom: 0px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .cta-button {
+    padding: 15px 32px;
+    font: bold 16px ITCAvantGardePro, sans-serif;
+    width: 290px;
+    height: 60px;
+  }
+  .guarantee {
+    font-size: 16px;
+    margin-top: 20px;
+    letter-spacing: 1.5;
+  }
+  .guarantee svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .section-title {
+    font-size: 31px;
+  }
+  .section-sub-title {
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 820px) {
+  .sales {
+    padding-bottom: 5px;
+  }
+  .hero {
+    flex-direction: row;
+    padding-inline: 20px;
+    padding-block: 70px;
+    margin-top: 0px;
+    column-gap: 50px;
+  }
+  .hero-title {
+    font-size: 48px;
+    font-weight: 500;
+  }
+  .hero .hero-text {
+    row-gap: 30px;
+    width: 50%;
+    text-align: left;
+    padding-block: 0;
+    padding: 0;
+  }
+  .hero-text .hero-description {
+    font-size: 22px;
+    line-height: 38px;
+  }
+  .hero .hero-image {
+    height: auto;
+    width: 50%;
+    border-radius: 8px;
+  }
+  .cta-button {
+    padding: 20px 32px;
+    font: bold 22px ITCAvantGardePro, sans-serif;
+    width: max-content;
+    height: 68px;
+    margin: 0;
+  }
+  .guarantee{
+    justify-content: left;
+  }
+  .section-title {
+    font-size: 48px;
+  }
+  .section-sub-title {
+    font-size: 22px;
+  }
+}

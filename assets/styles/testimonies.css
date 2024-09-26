@@ -1,0 +1,22 @@
+.frist-testimonies {
+  color: #f9fcfdff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2a2c3e;
+  letter-spacing: 1px;
+}
+.first-testimonies .section-title {
+  text-align: center;
+  font-weight: normal;
+  padding-inline: 20px;
+}
+.first-testimonies .texts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}

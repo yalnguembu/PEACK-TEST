@@ -1,0 +1,144 @@
+.posologia .image img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.posologia {
+  background-color: #2a2c3e;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.posologia .section-title {
+  margin-bottom: 0;
+  text-align: center;
+}
+.posologia .texts {
+  padding: 0 20px;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.posologia .items-group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+.posologia .item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  letter-spacing: 1;
+  color: #fff;
+  text-align: left;
+}
+.posologia .item .title {
+  font: bold 18px ITCAvantGardeGothic;
+  line-height: 30px;
+  margin: 0;
+  width: 100%;
+}
+.posologia .item .content {
+  font: 16px ITCAvantGardeGothic;
+  line-height: 25px;
+  margin: 0;
+  width: 100%;
+}
+.posologia .cta-conatiner {
+  width: 100%;
+}
+.posologia .texts .cta-button {
+  width: 100%;
+}
+
+@media (min-width: 641px) {
+  .posologia {
+    padding-block: 60px;
+  }
+  .posologia .image img {
+    height: 450px;
+    padding: 0;
+  }
+  .posologia .texts {
+    gap: 50px;
+  }
+  .posologia .items-group {
+    gap: 50px;
+  }
+  .posologia .item {
+    gap: 20px;
+  }
+  .posologia .item .title {
+    font: bold 22px ITCAvantGardeGothic;
+    line-height: 35px;
+    text-align: center;
+  }
+  .posologia .item .content {
+    font: 20px ITCAvantGardeGothic;
+    line-height: 30px;
+    text-align: center;
+  }
+  .posologia .cta-conatiner {
+    width: max-content;
+  }
+}
+
+@media (min-width: 820px) {
+  .posologia {
+    gap: 50px;
+    padding: 60px 20px;
+  }
+  .posologia .content {
+    display: flex;
+    gap: 50px;
+  }
+  .posologia .section-title {
+    width: 50%;
+    text-align: left;
+    margin: 0;
+    font-size: 44px;
+    font-weight: 600;
+  }
+  .posologia .image {
+    width: 50%;
+    height: 100%;
+  }
+  .posologia .image img {
+    height: 100%;
+    width: 100%;
+  }
+  .posologia .texts {
+    gap: 30px;
+    width: 50%;
+  }
+  .posologia .items-group {
+    gap: 30px;
+  }
+  .posologia .item {
+    gap: 20px;
+  }
+  .posologia .item .title {
+    font: bold 22px ITCAvantGardeGothic;
+    line-height: 35px;
+    text-align: left;
+  }
+  .posologia .item .content {
+    font: 20px ITCAvantGardeGothic;
+    line-height: 30px;
+    text-align: left;
+  }
+  .posologia .cta-conatiner {
+    margin-inline:0 ;
+    width: 100%;
+  }
+  .posologia .cta-button {
+    margin-inline:0 ;
+    width: auto;
+  }
+}

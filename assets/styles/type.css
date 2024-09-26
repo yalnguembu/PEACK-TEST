@@ -1,0 +1,137 @@
+.types {
+  color: #f9fcfdff;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #292b3c;
+}
+.types .illustrations {
+  display: grid;
+  gap: 16px;
+  width: 100%;
+}
+.types .images {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.types .images img {
+  width: 50%;
+  object-fit: contain;
+  height: auto;
+}
+.types .description {
+  color: #9496ad;
+  font: 12px ITCAvantGardeGothic, sans-serif;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 1;
+}
+.types .section-title {
+  margin-top: 0;
+}
+.types .texts {
+  padding: 0 20px;
+}
+.types .texts .advantages {
+  display: flex;
+  row-gap: 40px;
+  position: relative;
+  width: 100%;
+  column-gap: 40px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+.types .texts .advantages .item {
+  column-gap: 16px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+.types .texts .item-texts {
+  display: grid;
+  row-gap: 12px;
+  letter-spacing: 1px;
+}
+.types .texts .advantages .item-title {
+  font: bold 18px ITCAvantGardeGothic, sans-serif;
+  margin: 0;
+}
+.types .texts .advantages .details {
+  font: 14px ITCAvantGardeGothic, sans-serif;
+  margin: 0;
+  line-height: 20px;
+}
+.types .texts .item-icon {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (min-width: 641px) {
+  .types {
+    color: #f9fcfdff;
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #292b3c;
+  }
+  .types .illustrations {
+    display: grid;
+    gap: 16px;
+    width: 100%;
+  }
+  .types .images {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .types .images img {
+    height: 100%;
+  }
+  .types .description {
+    color: #9496ad;
+    font: 12px ITCAvantGardeGothic, sans-serif;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1;
+  }
+  .types .section-title {
+    margin-top: 0;
+  }
+  .types .texts {
+    padding: 0 20px;
+  }
+  .types .advantages-title {
+    font-size: 31px;
+    font-family: ITCAvantGardeGothic, sans-serif;
+  }
+  .types .texts .advantages {
+    row-gap: 60px;
+  }
+  .types .texts .advantages .item {
+    column-gap: 30px;
+  }
+  .types .texts .advantages .item-title {
+    font-size: 25px;
+    font-family: bold ITCAvantGardeGothic, sans-serif;
+    letter-spacing: 2.5;
+    line-height: 40px;
+  }
+  .types .texts .advantages .details {
+    font-size: 18px;
+    font-family: ITCAvantGardeGothic, sans-serif;
+    letter-spacing: 2.5;
+    line-height: 30px ;
+  }
+}

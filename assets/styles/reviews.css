@@ -1,0 +1,77 @@
+.reviews {
+  color: #f9fcfdff;
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  align-items: center;
+  padding-top: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  justify-content: center;
+  background-color: #2a2c3e;
+  text-align: center;
+}
+.reviews .header {
+  display: grid;
+  gap: 20px;
+  letter-spacing: 1px;
+}
+.reviews .header .title {
+  font: bold 24px ITCAvantGardeGothic;
+  margin: 0;
+}
+.reviews .header .subtitle {
+  font: 15px ITCAvantGardeGothic;
+  margin: 0;
+}
+.reviews .reviews {
+  margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.reviews .review {
+  width: 360px;
+}
+.reviews .review img {
+  width: 100%;
+  height: 360px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.review .nanimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: min-content;
+  padding-block: 14px;
+  margin-top: 12px;
+}
+.review .nanimg .circle {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: #fff;
+  display: block;
+}
+.review .name {
+  font: 600 20px ITCAvantGardePro;
+  margin: 0;
+}
+.review .lost {
+  font: 600 24px ITCAvantGardePro;
+  margin: 0;
+}
+.review .stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.review .comment {
+  font: 16px ITCAvantGardePro;
+  line-height: 28px;
+  letter-spacing: 1;
+}
