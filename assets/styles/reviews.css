@@ -24,7 +24,7 @@
   font: 15px ITCAvantGardeGothic;
   margin: 0;
 }
-.reviews .reviews-1 {
+.reviews .reviews-2 {
   margin-top: 10px;
   display: grid;
   justify-content: center;
@@ -34,7 +34,8 @@
   overflow-x: hidden;
 }
 .reviews .review {
-  width: 360px;
+  width: 100%;
+  padding-bottom: 20px;
 }
 .reviews .review img {
   width: 100%;
@@ -77,15 +78,58 @@
   line-height: 28px;
   letter-spacing: 1;
 }
-.first-button-next {
+
+.swiper-button-next {
   display: none;
   z-index: 50;
 }
-.first-button-prev {
+.swiper-button-prev {
   display: none;
   z-index: 50;
+}
+.reviews .swiper {
+  min-height: 700px;
+  max-height: max-content;
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #382757ff;
+  width: 35px;
+  height: 35px;
+  padding: 5%;
+  background-color: #c9cace;
+  border-radius: 100%;
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: "";
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #c9cace;
+}
+.frist-reviews {
+  text-align: center;
+}
+
+.frist-reviews .name {
+  font-size: 18px;
+}
+.frist-reviews .comment {
+  font-size: 14px;
+}
+.frist-reviews .name {
+  padding-block: 12px;
+}
+.review-slide {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  color: #382757;
+}
+/* .swiper-slide{ margin: 0;} */
 @media (min-width: 720px) {
   .swiper-wrapper {
     display: flex;
@@ -102,10 +146,14 @@
     font-weight: normal;
   }
 
-  .first-button-next {
+  .swiper-button-next {
     display: block;
   }
-  .first-button-prev {
+  .swiper-button-prev {
     display: block;
   }
+
+  /* .reviews .reviews-wrapper.first:nth-child(1) {
+    margin-left: 350px;
+  } */
 }
