@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-block: 1px solid #ffffff50;
 }
 .certificate .certificate {
   width: 100%;
@@ -47,13 +46,7 @@
 
 @media (min-width: 641px) {
   .certificate {
-    background-color: #292b3d;
     padding: 20px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-block: 1px solid #ffffff50;
   }
   .certificate .certificate {
     padding: 20px 32px;

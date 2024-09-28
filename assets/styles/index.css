@@ -293,27 +293,6 @@ body {
 .truncate {
   text-decoration: line-through;
 }
-.nav-button {
-  color: #382757ff;
-  width: 45px;
-  height: 45px;
-  opacity: 100%;
-  overflow: hidden;
-  flex-grow: unset;
-  flex-basis: auto;
-  transition: inherit;
-  flex-shrink: 0;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  background-color: #c9cace;
-  background-image: none;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-}
 
 .hero .container {
   display: flex;

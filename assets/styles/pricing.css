@@ -55,6 +55,7 @@
 }
 .plan .product-image {
   width: 100%;
+  height: 146px;
 }
 .plan .rate {
   display: flex;
